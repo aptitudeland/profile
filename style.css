@@ -1,0 +1,93 @@
+body {
+  font-family:Titillium Web;
+  color:rgb(80, 80, 80);
+  padding: 50px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color:rgb(242, 245, 248) ;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#img-profil {
+  height: 15em;
+  width : 15em;
+  min-width: 5em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+h1, h2, h3{
+  color:rgb(80, 80, 80);
+}
+
+ol{
+  text-align:justify;
+  padding-left: 33%;
+}
+
+ul{
+  text-align:justify;
+}
+
+a{
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  color:rgb(173, 82, 54);
+  font-weight: bold;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 135, 98);
+  transition: 0.3s ease;
+  font-size: 1.1em;
+}
+
+
+.cardmain {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  min-width: 250px;
+  max-width: 700px;
+  margin: 40px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.cardlist {
+  padding:5;
+  width: 200px;
+  margin: auto;
+  border-radius: 5px;
+  border:1px solid #EAEAEA;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
